@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+  font-family: "Raleway" sans-serif;
+}
+.list-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.list-contacts {
+  list-style-type: none;
+}
+.list-nav:hover,
+.list-nav:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address li {
+  list-style-type: none;
+}
+.list-address > li > a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.list-address > li > a:hover,
+.list-address > li > a:focus {
+  color: #404bbf;
+}
+.figura {
+  background-color: #2e2f42;
+}
+.title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.bth {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bth:hover,
+.bth:focus {
+  background-color: #404bbf;
+}
+.title-figura {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraph li {
+  list-style-type: none;
+}
+.paragraph-one {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.card-portfolio li {
+  list-style-type: none;
+}
+.card-people {
+  background-color: #f4f4fd;
+}
+.card-people li {
+  list-style-type: none;
+}
+.title-card {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.title-card-people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.list-one {
+  background-color: #ffffff;
+}
+.title-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
+}
+.paragraph-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
