@@ -18,6 +18,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 ul,
@@ -191,7 +192,7 @@ img {
 }
 .card-people {
   background-color: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .title-card {
   font-size: 36px;
@@ -215,7 +216,10 @@ img {
   text-align: center;
   margin-right: 24px;
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+}
+.list-one:nth-last-child() {
+  margin-right: 0;
 }
 .title-card-people {
   font-weight: 500;
@@ -232,6 +236,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+.title-paragraph-portfolio {
 }
 .card-portfolio {
   padding: 120px 0;
@@ -265,7 +271,6 @@ img {
 .title-paragraph {
   padding-bottom: 32px;
   margin-bottom: 8px;
-  text-align: left;
 }
 .list-portfolio {
   display: flex;
