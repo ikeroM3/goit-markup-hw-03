@@ -58,7 +58,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -81,7 +80,6 @@ img {
   gap: 40px;
 }
 .list-nav {
-  margin-right: 40px;
   padding: 24px 0;
   display: block;
   font-weight: 500;
@@ -123,16 +121,16 @@ img {
 .first-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
+  padding-top: 191px;
+  padding-bottom: 188px;
 }
 .first-section .title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  padding-bottom: 30px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+  max-width: 496px;
 }
 .visually-hidden {
   position: absolute;
@@ -192,7 +190,7 @@ img {
 }
 .card-people {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .title-card {
   font-size: 36px;
@@ -201,12 +199,12 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
+  padding-top: 120px;
 }
 .list-card {
   display: flex;
   justify-content: center;
-  padding-bottom: 120px;
   gap: 24px;
 }
 .conteiner-name {
@@ -233,13 +231,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 .title-paragraph-portfolio {
 }
-.card-portfolio {
-  padding: 120px 0;
-}
+
 .item-portolio {
   width: calc((100% - 24px * 2) / 3);
   gap: 24px;
@@ -261,14 +256,9 @@ img {
 .title-figura {
   font-weight: 500;
   font-size: 20px;
-  padding-top: 32px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.title-paragraph {
-  padding-bottom: 32px;
-  margin-bottom: 8px;
 }
 .list-portfolio {
   display: flex;
@@ -294,6 +284,5 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  margin-top: 16px;
   width: 264px;
 }
