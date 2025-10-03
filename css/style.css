@@ -265,6 +265,7 @@ img {
 .title-paragraph {
   padding-bottom: 32px;
   margin-bottom: 8px;
+  text-align: left;
 }
 .list-portfolio {
   display: flex;
