@@ -104,7 +104,7 @@ img {
 }
 .list-address {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 .adress-email {
   display: block;
@@ -122,7 +122,7 @@ img {
 .first-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 180px 0;
+  padding: 188px 0;
 }
 .first-section .title {
   font-size: 56px;
@@ -146,7 +146,7 @@ img {
   overflow: hidden;
 }
 .title {
-  width: 496px;
+  max-width: 496px;
 }
 .bth {
   display: block;
@@ -179,9 +179,10 @@ img {
   gap: 24px;
 }
 .paragraph-item {
+  width: calc((100% - 72px) / 4);
 }
 .title-figura {
-  width: calc((100% - 3 * 24px) / 4);
+  margin-bottom: 8px;
 }
 .paragraph-one {
   line-height: 1.5;
@@ -200,7 +201,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 .list-card {
   display: flex;
@@ -233,10 +233,16 @@ img {
   color: #434455;
   text-align: center;
 }
-
+.card-portfolio {
+  padding: 120px 0;
+}
 .item-portolio {
   width: calc((100% - 24px * 2) / 3);
+  gap: 24px;
   border-top: none;
+}
+.item-portolio:nth-last-child() {
+  margin-right: 0;
 }
 .under-item {
   font-weight: 400;
@@ -246,18 +252,19 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-figura {
   font-weight: 500;
   font-size: 20px;
   padding-top: 32px;
-  padding-bottom: 8px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .title-paragraph {
   padding-bottom: 32px;
+  margin-bottom: 8px;
 }
 .list-portfolio {
   display: flex;
