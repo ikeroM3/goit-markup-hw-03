@@ -121,7 +121,7 @@ img {
 .first-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
+  padding: 188px 0 188px;
   padding-top: 191px;
 }
 .title {
@@ -192,6 +192,9 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+.card-portfolio {
+  padding: 120px 0 120px 0;
+}
 .title-card {
   font-size: 36px;
   line-height: 1.11;
@@ -201,9 +204,7 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.profil {
-  padding-top: 120px;
-}
+
 .list-card {
   display: flex;
   justify-content: center;
@@ -267,7 +268,6 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding-bottom: 120px;
 }
 .list-portfolio {
 }
